@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+#          FILE:  azous.zsh-theme
+#   DESCRIPTION:  oh-my-zsh theme file.
+#        AUTHOR:  Ricardo Barçante de Souza (ricardouza@gmail.com)
+#       VERSION:  0.0.1
+# ------------------------------------------------------------------------------
+
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
 
 PROMPT='%{$fg[cyan]%}[%m: %~% ]%(?.%{$fg[green]%}.%{$fg[red]%})%B%b%{$reset_color%} $(git_prompt_info)%(!.#.$) '
