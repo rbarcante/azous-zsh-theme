@@ -1,0 +1,1 @@
+# azous-zsh-theme
